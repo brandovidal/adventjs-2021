@@ -20,7 +20,7 @@ npm install
 # Run all tests
 npm run test
 
-# Run day 4 tests (identified by 04 or day04)
+# Run day 1 tests (identified by 01 or day01)
 npm run test 01
 npm run test day01
 ```
