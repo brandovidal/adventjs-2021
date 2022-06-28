@@ -6,7 +6,7 @@
  * @param {{name: string, color: string}[]} sheeps - an array of sheep objects
  * @returns An array of objects that have the color red and the name includes 'na'
  */
-export default function contarOvejas (sheeps) {
+export default function countSheeps (sheeps) {
   // aquí tu magia
   return sheeps.filter((sheep) => sheep.color === 'rojo' && sheep.name.toLowerCase().includes('na'))
 }
