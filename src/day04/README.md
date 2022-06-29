@@ -55,7 +55,7 @@ export default function createXmasTree (height) {
 
 ### Test
 
-```js
+```javascript
 import createXmasTree from "./index"
 
 describe('Day 4 - AdventJS challengue', () => {

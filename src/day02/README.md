@@ -23,7 +23,7 @@ export default function listGifts(letter) {
 
 ### Test
 
-```js
+```javascript
 import listGifts from './index'
 
 describe('Day 2 - AdventJS challengue', () => {

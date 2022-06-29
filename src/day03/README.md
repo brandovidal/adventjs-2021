@@ -24,7 +24,7 @@ export default function isValid (letter) {
 
 ### Test
 
-```js
+```javascript
 import isValid from './index'
 
 describe('Day 3 - AdventJS challengue', () => {
