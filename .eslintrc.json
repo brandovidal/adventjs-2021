@@ -1,0 +1,23 @@
+// 20220629034133
+// https://raw.githubusercontent.com/aanton/adventjs/main/.eslintrc.json
+
+{
+  "env": {
+    "node": true,
+    "es2022": true,
+    "jest": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "eqeqeq": "error",
+    "no-console": "error",
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-const": "error",
+    "space-before-function-paren": "warn"
+  }
+}
