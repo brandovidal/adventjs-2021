@@ -4,15 +4,16 @@
  * @param {Date} date - The date to compare to Christmas.
  * @returns The number of days until Christmas.
  */
-export default function daysToXmas(date) {
-    // ¡Y no olvides compartir tu solución en redes!
-    const ONE_DAY = 1000 * 60 * 60 * 24
+export default function daysToXmas (date) {
+  // ¡Y no olvides compartir tu solución en redes!
+  const ONE_DAY = 1000 * 60 * 60 * 24
 
-    const christmasDay = new Date('Dec 25, 2021').getTime()
+  const christmasDay = new Date('Dec 25, 2021').getTime()
 
-    const subtractedDays = christmasDay - date.getTime()
+  const subtractedDays = christmasDay - date.getTime()
 
-  	const days = Math.ceil(subtractedDays / ONE_DAY)
-    
-    return days === -0 ? Math.abs(days) : days
+  const days = Math.ceil(subtractedDays / ONE_DAY)
+
+  const negativeZero = -0
+  return days === negativeZero ? Math.abs(days) : days
 }

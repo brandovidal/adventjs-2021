@@ -30,6 +30,9 @@
       "jest"
     ]
   },
+  "lint-staged": {
+    "*.js": "standard"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brandovidal/adventjs.git"

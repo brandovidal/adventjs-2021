@@ -1,4 +1,4 @@
-import sumPairs from "./index"
+import sumPairs from './index'
 
 describe('Day 6 - AdventJS challengue', () => {
   test('finds a pair', () => {

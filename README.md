@@ -6,7 +6,7 @@ My solutions to [25 days of JavaScript challenges](https://adventjs.dev/) by [@m
 
 - [Standard](https://standardjs.com/) for code linting and formatting
 - vscode settings to run code formatting & linting on save
-<!-- - Pre-commit hook to ckeck code formatting & linting using [husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged) -->
+- Pre-commit hook to ckeck code formatting & linting using [husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged)
 
 ## 💻️ Installation & usage ⚒️
 
