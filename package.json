@@ -49,5 +49,8 @@
   "homepage": "https://github.com/brandovidal/adventjs#readme",
   "bugs": {
     "url": "https://github.com/brandovidal/adventjs/issues"
+  },
+  "dependencies": {
+    "lint-staged": "13.0.3"
   }
 }
