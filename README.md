@@ -30,7 +30,7 @@ npm run test day01
 | Day | Name                                                              | Rules                                       | Tests                              | Code                         |
 | --- | ----------------------------------------------------------------- | ------------------------------------------- | ---------------------------------- | ---------------------------- |
 | 1   | [Contando ovejas para dormir](./src/day01/README.md)              | [rules](https://adventjs.dev/challenges/01) | [tests](./src/day01/index.test.js) | [code](./src/day01/index.js) |
-<!-- | 2   | ¡Ayuda al elfo a listar los regalos!                              | [rules](https://adventjs.dev/challenges/02) | [tests](./src/day02/index.test.js) | [code](./src/day02/index.js) | -->
+| 2   | [¡Ayuda al elfo a listar los regalos!](./src/day01/README.md)     | [rules](https://adventjs.dev/challenges/02) | [tests](./src/day02/index.test.js) | [code](./src/day02/index.js) |
 <!-- | 3   | El Grinch quiere fastidiar la Navidad                             | [rules](https://adventjs.dev/challenges/03) | [tests](./src/day03/index.test.js) | [code](./src/day03/index.js) |
 | 4   | ¡Es hora de poner la navidad en casa!                             | [rules](https://adventjs.dev/challenges/04) | [tests](./src/day04/index.test.js) | [code](./src/day04/index.js) |
 | 5   | Contando los días para los regalos                                | [rules](https://adventjs.dev/challenges/05) | [tests](./src/day05/index.test.js) | [code](./src/day05/index.js) |
