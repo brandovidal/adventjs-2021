@@ -11,10 +11,9 @@ export default function listGifts (letter) {
     .split(' ')
     .filter((w) => !w.startsWith('_'))
 
-  const counter = words.reduce((acc, cur) => {
-    if (!acc[cur]) acc[cur] = 1
-    else acc[cur] += 1
-    return acc
+  return words.reduce((gifts, word) => {
+    if (!gifts[word]) gifts[word] = 1
+    else gifts[word] += 1
+    return gifts
   }, {})
-  return counter
 }
