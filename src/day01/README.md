@@ -13,7 +13,7 @@ export default function countSheeps(sheeps) {
 
 ### Test
 
-```js
+```javascript
 import countSheeps from './index'
 
 describe('Day 1 - AdventJS challengue', () => {
