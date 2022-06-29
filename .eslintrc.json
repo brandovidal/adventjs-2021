@@ -14,7 +14,7 @@
   },
   "rules": {
     "eqeqeq": "error",
-    "no-console": "error",
+    "no-console": "warn",
     "no-var": "error",
     "object-shorthand": "error",
     "prefer-const": "error",
