@@ -1,23 +1,20 @@
 /**
- * It takes an array of strings and returns an object with the length of each string as a key and the
- * strings of that length as the value
- * @param {any[]} collection - [
- * @param {any} it - a function that returns the value to group by
- * @returns An object with the length of the string as the key and the string as the value.
+ * It takes a collection and a function or string, and returns an object with the collection grouped by
+ * the function or string
+ * @param { object[] } collection - an array of objects
+ * @param { string | Function } it - The iterator function.
+ * @returns An object with the values of the array grouped by the value of the property passed as a
+ * parameter.
  */
 export default function groupBy (collection, it) {
   // ¡No olvides compartir tu solución en redes!
   // console.log({ collection, it })
 
-  const groups = collection.reduce((result, current) => {
-    const value = current.length
+  return collection.reduce((result, current) => {
+    const value = typeof it === 'string' ? current[it] : it(current)
     if (result[value] === undefined) result[value] = []
 
-    console.log(result[value])
     result[value] = [...result[value], current]
     return result
   }, {})
-  console.log({ groups })
-
-  return {}
 }
