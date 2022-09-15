@@ -38,7 +38,7 @@ npm run test day01
 | 7   | [Buscando en el almacén...](./src/day07/README.md)                | [rules](https://adventjs.dev/challenges/07) | [tests](./src/day07/index.test.js) | [code](./src/day07/index.js) |
 | 8   | [La locura de las criptomonedas](./src/day08/README.md)           | [rules](https://adventjs.dev/challenges/08) | [tests](./src/day08/index.test.js) | [code](./src/day08/index.js) |
 | 9   | [Agrupando cosas automáticamente](./src/day09/README.md)          | [rules](https://adventjs.dev/challenges/09) | [tests](./src/day09/index.test.js) | [code](./src/day09/index.js) |
-<!-- | 10  | La máquina de cambio                                              | [rules](https://adventjs.dev/challenges/10) | [tests](./src/day10/index.test.js) | [code](./src/day10/index.js) | -->
+| 10  | [La máquina de cambio](./src/day10/README.md)                     | [rules](https://adventjs.dev/challenges/10) | [tests](./src/day10/index.test.js) | [code](./src/day10/index.js) |
 <!-- | 11  | ¿Vale la pena la tarjeta fidelidad del cine?                      | [rules](https://adventjs.dev/challenges/11) | [tests](./src/day11/index.test.js) | [code](./src/day11/index.js) |
 | 12  | La ruta perfecta para dejar los regalos                           | [rules](https://adventjs.dev/challenges/12) | [tests](./src/day12/index.test.js) | [code](./src/day12/index.js) |
 | 13  | Envuelve regalos con asteriscos                                   | [rules](https://adventjs.dev/challenges/13) | [tests](./src/day13/index.test.js) | [code](./src/day13/index.js) |
