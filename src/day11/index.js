@@ -1,3 +1,9 @@
+/**
+ * If the cost of buying a ticket with fidelity is less than the cost of buying a ticket without
+ * fidelity, then return true, otherwise return false.
+ * @param { number } times - number of times you'll go to the cinema
+ * @returns a boolean value.
+ */
 export default function shouldBuyFidelity (times) {
   // ¡No olvides compartir tu solución en redes!
   const TICKET_COST = 12
