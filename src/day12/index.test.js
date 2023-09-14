@@ -6,7 +6,7 @@ const cases = [
   { input: 7, expected: [2, 4, 6, 8, 10] }
 ]
 
-describe('Day 10 - AdventJS challengue', () => {
+describe('Day 12 - AdventJS challengue', () => {
   test.each(cases)('get $input min jump using $expected', ({ input, expected }) => {
     expect(getMinJump(expected)).toEqual(input)
   })
