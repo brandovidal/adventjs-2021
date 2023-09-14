@@ -41,7 +41,7 @@ npm run test day01
 | 10  | [La máquina de cambio](./src/day10/README.md)                                      | [rules](https://adventjs.dev/challenges/10) | [tests](./src/day10/index.test.js) | [code](./src/day10/index.js) |
 | 11  | [¿Vale la pena la tarjeta fidelidad del cine?](./src/day11/README.md)              | [rules](https://adventjs.dev/challenges/11) | [tests](./src/day11/index.test.js) | [code](./src/day11/index.js) |
 | 12  | [La ruta perfecta para dejar los regalos](./src/day12/README.md)                   | [rules](https://adventjs.dev/challenges/12) | [tests](./src/day12/index.test.js) | [code](./src/day12/index.js) |
-<!-- | 13  | Envuelve regalos con asteriscos                                   | [rules](https://adventjs.dev/challenges/13) | [tests](./src/day13/index.test.js) | [code](./src/day13/index.js) | -->
+| 13  | [Envuelve regalos con asteriscos](./src/day13/README.md)                           | [rules](https://adventjs.dev/challenges/13) | [tests](./src/day13/index.test.js) | [code](./src/day13/index.js) |
 <!-- | 14  | En busca del reno perdido                                         | [rules](https://adventjs.dev/challenges/14) | [tests](./src/day14/index.test.js) | [code](./src/day14/index.js) | -->
 <!-- | 15  | El salto perfecto                                                 | [rules](https://adventjs.dev/challenges/15) | [tests](./src/day15/index.test.js) | [code](./src/day15/index.js) | -->
 <!-- | 16  | Descifrando los números...                                        | [rules](https://adventjs.dev/challenges/16) | [tests](./src/day16/index.test.js) | [code](./src/day16/index.js) | -->
