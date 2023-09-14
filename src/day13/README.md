@@ -1,42 +1,42 @@
-# La ruta perfecta para dejar los regalos
+# Envuelve regalos con asteriscos
 
-> En el taller de Santa ya están preparándolo todo para poder hacer la ruta perfecta para dejar los regalos. El problema es que hay unos obstáculos en el camino que debemos sortear...
+> Estamos a fuego envolviendo regalos... ¡pero necesitamos automatizar esto antes de que los elfos decidan ponerse en huelga! ¡Salva la Navidad (otra vez)!
 
 ### Solution
 
 ```javascript
-export default function getMinJump (obstacles) {
-  // reorder list
-  const list = obstacles.sort((a, b) => a - b)
+export default function wrapGifts (gifts) {
+  // ¡No olvides compartir tu solución en redes!
+  const DECORATOR = '*'
 
-  // jump list
-  const max = Math.max(...obstacles)
-  const jumps = Array(max)
-    .fill(0)
-    .map((_, a) => a + 1)
+  // define numbers and max line
+  const max = gifts.at(0).length + 2
 
-  // methods
-  const residue = (item, jump) => item % jump === 0
-  const minJump = (list, jump) => !list.some((item) => residue(item, jump))
+  // create line decorator
+  const decorator = DECORATOR.repeat(max)
 
-  return jumps.find((jump) => minJump(list, jump))
+  // create lines of tree
+  const lines = gifts.map(gift => DECORATOR + gift + DECORATOR)
+
+  // create tree
+  return [decorator, ...lines, decorator]
 }
 ```
 
 ### Test
 
 ```javascript
-import getMinJump from './index'
+import wrapGifts from './index'
 
 const cases = [
-  { input: 4, expected: [1, 2, 3, 5] },
-  { input: 2, expected: [3, 7, 5] },
-  { input: 7, expected: [2, 4, 6, 8, 10] }
+  { input: ['📷', '⚽️'], expected: ['****', '*📷*', '*⚽️*', '****'] },
+  { input: ['📷'], expected: ['****', '*📷*', '****'] },
+  { input: ['🏈🎸', '🎮🧸'], expected: ['******', '*🏈🎸*', '*🎮🧸*', '******'] }
 ]
 
 describe('Day 10 - AdventJS challengue', () => {
-  test.each(cases)('get $input min jump using $expected', ({ input, expected }) => {
-    expect(getMinJump(expected)).toEqual(input)
+  test.each(cases)('get $input gift using $expected', ({ input, expected }) => {
+    expect(wrapGifts(input)).toEqual(expected)
   })
 })
 ```
