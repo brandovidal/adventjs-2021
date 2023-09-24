@@ -1,4 +1,4 @@
-import wrapGifts from './index'
+import missingReindeer from './index'
 
 const cases = [
   { input: [0, 2, 3], expected: 1 },
@@ -10,6 +10,6 @@ const cases = [
 
 describe('Day 14 - AdventJS challengue', () => {
   test.each(cases)('get $input gift using $expected', ({ input, expected }) => {
-    expect(wrapGifts(input)).toEqual(expected)
+    expect(missingReindeer(input)).toEqual(expected)
   })
 })
